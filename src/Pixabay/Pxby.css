@@ -1,0 +1,70 @@
+
+header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.left h1{
+    font-size: 35px;
+    padding-left: 20px;
+}
+#upload{
+    background-color: rgb(19, 169, 2);
+    width: 90px;
+    border-radius: 50px;
+}
+input{
+    width: 800px;
+    height: 55px;
+    border-radius: 30px;
+    color: black;
+}
+
+main{
+    background-image: url("https://cdn.pixabay.com/photo/2023/11/29/22/24/river-8420386_1280.jpg");
+    background-size: cover;
+    overflow: hidden;
+    height: 450px;
+    color: rgb(206, 234, 209);
+    
+}
+
+.center{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center div h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section{
+    position: relative;
+}
+
+.pop-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.pop-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    height: 75%;
+}
